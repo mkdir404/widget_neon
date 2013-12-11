@@ -1,0 +1,93 @@
+/*
+* Costome Style
+*
+*/
+
+/*
+* Global style
+*/
+
+i {
+	padding-right: 4px;
+}
+
+/*
+* General 
+*/
+
+.wrapper {
+	width: 1024px;
+	margin:auto;
+}
+
+.header{
+	padding: 20px;
+	background-color:#333;
+	color:#fff;
+	margin: 0 0 10px 0;
+}
+
+.main-controll{
+	padding: 10px;
+	float: right;
+}
+
+.main-controll input{
+	padding: 4px;
+	width: 506px;	
+}
+
+
+.main-button{
+	background-color: #f1f1f1;
+	padding: 6px;
+	margin-left: 5px;
+	cursor: pointer;
+	color:#1d9d74;
+}
+
+.list-todo ul {
+	padding: 0;
+}
+
+.list-todo ul li {
+	background-color: #f1f1f1;
+	border-bottom: dashed 1px #ccc;
+	list-style:none;
+	padding: 10px;
+
+}
+
+/*Inbox TODO*/
+
+.inbox-todo {
+	float: left;
+	background-color: #f1f1f1;
+	color:#333;
+	width: 320px;
+}
+
+.inbox-todo ul {
+	margin:0;
+	padding: 0;
+}
+
+.inbox-todo ul li {
+	list-style: none;	
+	padding: 10px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.inbox-todo ul li:hover{
+	background-color: #ccc;
+}
+
+.add-list{
+	color:#ccc;
+	margin-top:5px; 
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+
